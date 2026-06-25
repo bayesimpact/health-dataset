@@ -38,7 +38,7 @@ Values for `type`:
 
 Ce corpus d’information et d’éducation thérapeutique des patients transplantés hépatiques a été initié par Elise Goyon et le Pr Eric Vibert, avec le soutien du Pr Audrey Coilly.
 
-Il a été coréalisé par l’équipe soignante du Centre Hépato-Biliaire Henri Bismuth (Elise Goyon, Alexandra Kokar, Nolwen Leost, Dylan Tisserand, Adeline Preiss, Zohra Abaoud et Thomas Bréard), à l’Hôpital Paul-Brousse, AP-HP (Assistance Publique – Hôpitaux de Paris).
+Il a été coréalisé par l’équipe soignante du Centre Hépato-Biliaire Henri Bismuth (Elise Goyon, Alexandra Kokar, Nolwen Leost, Dylan Tisserand, Adeline Preiss, Zohra Abaoud et Thomas Bréard), à l’Hôpital Paul-Brousse, Assistance Publique – Hôpitaux de Paris (AP-HP), Villejuif.
 
 La diffusion de cette œuvre est soumise à la licence **Creative Commons Attribution – Partage dans les Mêmes Conditions 4.0 International (CC-BY-SA 4.0)**.
 
@@ -46,7 +46,7 @@ La diffusion de cette œuvre est soumise à la licence **Creative Commons Attrib
 
 This corpus of information and therapeutic education for liver transplant patients was initiated by Elise Goyon and Prof. Eric Vibert, with support from Prof. Audrey Coilly.
 
-It was co-developed by the care team of the Henri Bismuth Hepato-Biliary Center (Elise Goyon, Alexandra Kokar, Nolwen Leost, Dylan Tisserand, Adeline Preiss, Zohra Abaoud and Thomas Bréard) at Hôpital Paul-Brousse, AP-HP (Assistance Publique – Hôpitaux de Paris).
+It was co-developed by the care team of the Henri Bismuth Hepato-Biliary Center (Elise Goyon, Alexandra Kokar, Nolwen Leost, Dylan Tisserand, Adeline Preiss, Zohra Abaoud and Thomas Bréard) at Hôpital Paul-Brousse, Assistance Publique – Hôpitaux de Paris (AP-HP), Villejuif.
 
 This work is distributed under the **Creative Commons Attribution – ShareAlike 4.0 International license (CC BY-SA 4.0)**.
 

@@ -12,15 +12,15 @@
     "French language"
   ],
   "creators": [
-    {"name": "Goyon, Elise", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
-    {"name": "Kokar, Alexandra", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
-    {"name": "Leost, Nolwen", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
-    {"name": "Tisserand, Dylan", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
-    {"name": "Preiss, Adeline", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
-    {"name": "Abaoud, Zohra", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
-    {"name": "Bréard, Thomas", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
-    {"name": "Coilly, Audrey", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)", "orcid": "0000-0003-3149-8617"},
-    {"name": "Vibert, Eric", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)", "orcid": "0000-0003-3297-1947"}
+    {"name": "Goyon, Elise", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"},
+    {"name": "Kokar, Alexandra", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"},
+    {"name": "Leost, Nolwen", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"},
+    {"name": "Tisserand, Dylan", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"},
+    {"name": "Preiss, Adeline", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"},
+    {"name": "Abaoud, Zohra", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"},
+    {"name": "Bréard, Thomas", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"},
+    {"name": "Coilly, Audrey", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France", "orcid": "0000-0003-3149-8617"},
+    {"name": "Vibert, Eric", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France", "orcid": "0000-0003-3297-1947"}
   ],
   "related_identifiers": [
     {

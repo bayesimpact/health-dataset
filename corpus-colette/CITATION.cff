@@ -31,7 +31,7 @@ authors:
   - given-names: Eric
     family-names: Vibert
     orcid: "https://orcid.org/0000-0003-3297-1947"
-  - name: "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"
+  - name: "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"
 license: CC-BY-SA-4.0
 keywords:
   - therapeutic patient education
@@ -48,7 +48,7 @@ repository-code: "https://github.com/bayesimpact/health-dataset/tree/main/corpus
 contact:
   - given-names: Elise
     family-names: Goyon
-    affiliation: "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"
+    affiliation: "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse, Assistance Publique - Hôpitaux de Paris (AP-HP), Villejuif, France"
 
 # Versioning and DOI management (to be updated upon GitHub ↔ Zenodo integration)
 version: 26.06.0
