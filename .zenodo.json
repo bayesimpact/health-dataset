@@ -1,0 +1,32 @@
+{
+  "title": "Colette Corpus — Therapeutic Patient Education for Liver Transplant Recipients",
+  "description": "Information and therapeutic patient education (TPE) corpus for liver transplant patients: clinical factsheets and a reference question-and-answer database, developed and validated by the healthcare team at the Henri Bismuth Hepato-Biliary Center (Paul-Brousse Hospital, AP-HP).",
+  "upload_type": "dataset",
+  "license": "cc-by-sa-4.0",
+  "keywords": [
+    "therapeutic patient education",
+    "liver transplantation",
+    "hepatology",
+    "medical corpus",
+    "health open data",
+    "French language"
+  ],
+  "creators": [
+    {"name": "Goyon, Élise", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
+    {"name": "Kokar, Alexandra", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
+    {"name": "Leost, Nolwen", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
+    {"name": "Tisserand, Dylan", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
+    {"name": "Preiss, Adeline", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
+    {"name": "Abaoud, Zohra", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
+    {"name": "Bréard, Thomas", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
+    {"name": "Coilly, Audrey", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)", "orcid": "0000-0003-3149-8617"},
+    {"name": "Vibert, Éric", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)", "orcid": "0000-0003-3297-1947"}
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/bayesimpact/health-dataset/tree/main/corpus-colette",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
