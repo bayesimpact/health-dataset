@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+title: "Colette Corpus — Therapeutic Patient Education for Liver Transplant Recipients"
+abstract: >-
+  Information and therapeutic patient education (TPE) corpus for liver
+  transplant patients: clinical factsheets and a reference question-and-answer
+  database, developed and validated by the healthcare team at the Henri Bismuth
+  Hepato-Biliary Center (Paul-Brousse Hospital, AP-HP).
+type: dataset
+message: >-
+  If you reuse this corpus, please cite it (see the 'How to cite' section
+  in the README). The citation applies to the dataset, distributed under the
+  CC-BY-SA 4.0 license.
+authors:
+  - given-names: Elise
+    family-names: Goyon
+  - given-names: Alexandra
+    family-names: Kokar
+  - given-names: Nolwen
+    family-names: Leost
+  - given-names: Dylan
+    family-names: Tisserand
+  - given-names: Adeline
+    family-names: Preiss
+  - given-names: Zohra
+    family-names: Abaoud
+  - given-names: Thomas
+    family-names: Bréard
+  - given-names: Audrey
+    family-names: Coilly
+    orcid: "https://orcid.org/0000-0003-3149-8617"
+  - given-names: Eric
+    family-names: Vibert
+    orcid: "https://orcid.org/0000-0003-3297-1947"
+  - name: "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"
+license: CC-BY-SA-4.0
+keywords:
+  - therapeutic patient education
+  - liver transplantation
+  - hepatology
+  - medical corpus
+  - health open data
+  - langue française
+
+# Project links
+repository-code: "https://github.com/bayesimpact/health-dataset/tree/main/corpus-colette"
+
+# Primary contact point for corpus users
+contact:
+  - given-names: Elise
+    family-names: Goyon
+    affiliation: "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"
+
+# Versioning and DOI management (to be updated upon GitHub ↔ Zenodo integration)
+version: 26.06.0
+date-released: "2026-06-25"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.XXXXXXX # TODO
+    description: "The global DOI for this dataset."
