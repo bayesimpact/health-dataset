@@ -12,7 +12,7 @@
     "French language"
   ],
   "creators": [
-    {"name": "Goyon, Élise", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
+    {"name": "Goyon, Elise", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
     {"name": "Kokar, Alexandra", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
     {"name": "Leost, Nolwen", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
     {"name": "Tisserand, Dylan", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
@@ -20,7 +20,7 @@
     {"name": "Abaoud, Zohra", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
     {"name": "Bréard, Thomas", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)"},
     {"name": "Coilly, Audrey", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)", "orcid": "0000-0003-3149-8617"},
-    {"name": "Vibert, Éric", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)", "orcid": "0000-0003-3297-1947"}
+    {"name": "Vibert, Eric", "affiliation": "Centre Hépato-Biliaire Henri Bismuth, Hôpital Paul-Brousse (AP-HP)", "orcid": "0000-0003-3297-1947"}
   ],
   "related_identifiers": [
     {
