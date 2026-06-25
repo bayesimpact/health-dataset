@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20851800.svg)](https://doi.org/10.5281/zenodo.20851800)
+
 ## **🇫🇷 Format des fichiers (OKF v0.1)**
 
 Chaque document du corpus est un fichier Markdown avec un frontmatter YAML standardisé :
