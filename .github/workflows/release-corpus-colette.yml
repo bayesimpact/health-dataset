@@ -1,0 +1,68 @@
+name: Release corpus Colette
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version (e.g. 26.06.0)"
+        required: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract release notes from CHANGELOG.md
+        id: notes
+        run: |
+          NOTES=$(awk '/^## \[Unreleased\]/{found=1; next} /^## \[/{found=0} found' corpus-colette/CHANGELOG.md)
+          if [ -z "$(echo "$NOTES" | tr -d '[:space:]')" ]; then
+            echo "No release notes found in [Unreleased] section" >&2
+            exit 1
+          fi
+          echo "$NOTES" > release-notes.txt
+
+      - name: Promote CHANGELOG.md
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          DATE=$(date +%Y-%m-%d)
+          awk -v ver="$VERSION" -v date="$DATE" '
+            /^## \[Unreleased\]/ {
+              print "## [Unreleased]"
+              print ""
+              print "## [" ver "] - " date
+              next
+            }
+            { print }
+          ' corpus-colette/CHANGELOG.md > CHANGELOG.tmp && mv CHANGELOG.tmp corpus-colette/CHANGELOG.md
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push CHANGELOG
+        run: |
+          git add corpus-colette/CHANGELOG.md
+          git commit -m "chore: promote changelog for v${{ github.event.inputs.version }}"
+          git push origin main
+
+      - name: Create and push scoped tag
+        run: |
+          git tag corpus-colette/v${{ github.event.inputs.version }}
+          git push origin corpus-colette/v${{ github.event.inputs.version }}
+
+      - name: Package corpus
+        run: zip -r corpus-colette-v${{ github.event.inputs.version }}.zip corpus-colette/
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: corpus-colette/v${{ github.event.inputs.version }}
+          name: corpus-colette v${{ github.event.inputs.version }}
+          body_path: release-notes.txt
+          files: corpus-colette-v${{ github.event.inputs.version }}.zip
