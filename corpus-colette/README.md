@@ -72,7 +72,7 @@ This project was made possible thanks to the support of:
 
 Si vous réutilisez ce corpus, merci de le citer. Citation suggérée :
 
-> Goyon, E. *et al.* (Centre Hépato-Biliaire Henri Bismuth, AP-HP). *Corpus Colette — éducation thérapeutique des patients transplantés hépatiques*. 2026. Version 26.06.0. [DOI Zenodo]
+> Goyon, E. *et al.* (Centre Hépato-Biliaire Henri Bismuth, AP-HP). *Corpus Colette — éducation thérapeutique des patients transplantés hépatiques*. 2026. Version 26.06.0. https://doi.org/10.5281/zenodo.20851800
 
 Le bouton **« Cite this repository »** dans la barre latérale droite de GitHub (alimenté par le fichier [`CITATION.cff`](CITATION.cff)) vous permet d'exporter la citation complète (incluant tous les co-auteurs dans le bon ordre) au format APA ou BibTeX.
 
@@ -82,6 +82,6 @@ Le bouton **« Cite this repository »** dans la barre latérale droite de GitHu
 
 If you reuse this corpus, please cite it. Suggested citation:
 
-> Goyon, E. *et al.* (Henri Bismuth Hepato-Biliary Center, AP-HP). *Colette Corpus — Therapeutic Patient Education for Liver Transplant Recipients*. 2026. Version 26.06.0. [DOI Zenodo]
+> Goyon, E. *et al.* (Henri Bismuth Hepato-Biliary Center, AP-HP). *Colette Corpus — Therapeutic Patient Education for Liver Transplant Recipients*. 2026. Version 26.06.0. https://doi.org/10.5281/zenodo.20851800
 
 GitHub's **"Cite this repository"** button in the right sidebar (powered by [`CITATION.cff`](CITATION.cff)) exports a ready-to-use citation (including all co-authors in the correct order) in APA or BibTeX format.

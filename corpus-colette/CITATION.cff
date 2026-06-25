@@ -55,5 +55,5 @@ version: 26.06.0
 date-released: "2026-06-25"
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.XXXXXXX # TODO
+    value: 10.5281/zenodo.20851800
     description: "The global DOI for this dataset."
