@@ -91,6 +91,35 @@ La ciclosporine est un immunosuppresseur utilisé pour prévenir les rejets d'or
 
 ---
 
+## Certican (Évérolimus)
+
+Le Certican (principe actif : évérolimus) est un immunosuppresseur (anti-rejet) appartenant à la famille des inhibiteurs de mTOR. En transplantation hépatique, il est prescrit en association avec le tacrolimus et les corticoïdes pour protéger le nouveau foie tout en permettant de réduire les doses de tacrolimus (protection des reins).
+
+**Posologie et modalités de prise :**
+- Dose initiale : La dose habituelle est de 1 mg deux fois par jour (matin et soir, à 12h d'intervalle), débutée généralement environ 4 semaines après la transplantation.
+- Ajustement : La dose est régulièrement adaptée par votre hépatologue en fonction du taux de médicament dans votre sang (évérolémie).
+- Prise de sang (Taux résiduel) : Le prélèvement sanguin doit être réalisé LE MATIN À JEUN, AVANT la prise du médicament. Prenez votre dose de Certican immédiatement après la prise de sang.
+- Règle des repas : Prenez toujours votre Certican selon la même routine : soit TOUJOURS pendant le repas, soit TOUJOURS en dehors des repas. Ne changez pas vos habitudes d'un jour à l'autre.
+- Forme des comprimés : Avalez les comprimés entiers avec un verre d'eau. Ne pas écraser ni croquer les comprimés. Si vous avez des difficultés à avaler, parlez-en à l'équipe (des formes dispersibles existent).
+
+**Contre-indications :**
+- Allergie à l'évérolimus, au sirolimus ou à l'un des excipients (notamment le lactose).
+
+**Mises en garde spéciales et effets indésirables :**
+- Cicatrisation : Ce médicament peut retarder la cicatrisation des plaies (risque d'éventration/hernie). Prévenez votre chirurgien avant toute intervention.
+- Affections de la bouche : Apparition possible d'aphtes ou de douleurs dans la bouche (stomatite).
+- Protéinurie et reins : Une surveillance régulière des urines (recherche de protéines) et de la fonction rénale est nécessaire.
+- Bilan sanguin et métabolisme : Peut provoquer une hausse du cholestérol/triglycérides, de la glycémie (diabète) ou une baisse des globules rouges (anémie).
+- Toux ou essoufflement : Prévenez immédiatement l'équipe médicale en cas de toux sèche persistante ou de gêne respiratoire inexpliquée (risque de pneumopathie).
+- Contraception et grossesse : Une contraception efficace est obligatoire pendant le traitement et jusqu'à 8 semaines après son arrêt. L'allaitement est contre-indiqué. Des cas d'infertilité masculine réversible ont été rapportés.
+- Soleil et Vaccins : Protection solaire obligatoire (crème SPF 50, vêtements). Vaccins vivants contre-indiqués.
+
+**Interactions à éviter :**
+- Pamplemousse et jus de pamplemousse : À éviter (risque de surdosage).
+- Millepertuis : Interdit (risque de baisse du taux de médicament et de rejet).
+
+---
+
 ## Paracétamol (DAFALGAN, DOLIPRANE, EFFERALGAN)
 
 Le paracétamol est un analgésique qui soulage la douleur et un antipyrétique qui réduit la fièvre.
@@ -155,4 +184,3 @@ Les traitements anticoagulants doivent être arrêtés une semaine avant tout ge
 ## Surveillance après l'arrêt du Rovalcyt (valganciclovir)
 
 Le traitement préventif par Rovalcyt est arrêté environ 100 jours (soit un peu plus de 3 mois) après la transplantation, l'équipe médicale peut aussi décider de prolonger ce traitement préventif jusqu'à 200 jours (environ 6 mois et demi). À l’arrêt du traitement Rovalcyt, il est important d'être particulièrement attentif au transit intestinal. Si le patient constate l'apparition d'une diarrhée, il doit contacter rapidement son coordinateur de transplantation hépatique. En effet, ce symptôme peut indiquer que le cytomégalovirus (CMV) est redevenu actif, ce qui nécessite une prise en charge rapide pour protéger la santé du patient et le greffon. Des analyses sanguines seront nécessaires pour rechercher et quantifier le virus.
-
