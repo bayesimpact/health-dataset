@@ -2,7 +2,7 @@
 
 Ce fichier référence les documents sources du corpus, avec leurs liens de téléchargement officiels, plutôt que de committer les PDF binaires directement dans le repo.
 
-Voir [`perimetre_et_questions_test_RAG.txt`](./perimetre_et_questions_test_RAG.txt) pour le périmètre scientifique détaillé et des questions de test RAG basées sur ce corpus.
+Voir [`perimetre_scientifique.txt`](./perimetre_scientifique.txt) pour le périmètre scientifique détaillé couvert par ce corpus.
 
 ## 1. Chirurgie de résection hépatique (péri-opératoire complet)
 
