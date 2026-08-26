@@ -1,0 +1,146 @@
+PÉRIMÈTRE SCIENTIFIQUE ET QUESTIONS DE TEST RAG
+Corpus : réanimation_greffe_hepatique (12 documents HAS / SFAR / AFEF)
+================================================================================
+
+PÉRIMÈTRE SCIENTIFIQUE COUVERT PAR LES 13 DOCUMENTS
+================================================================================
+
+Le corpus ne couvre pas un sujet unique et homogène "réa post-greffe hépatique"
+- il se décompose en 4 blocs distincts :
+
+1. CHIRURGIE DE RÉSECTION HÉPATIQUE (péri-opératoire complet)
+   Sources : HAS-2025-resection-hepatique-recommandations.pdf
+             HAS-2025-resection-hepatique-argumentaire.pdf
+   Contenu : Bilan préopératoire, préhabilitation, nutrition, drainage biliaire,
+   choix de l'anesthésie, préconditionnement hépatique, antibioprophylaxie,
+   hémodynamique peropératoire, ventilation protectrice, hémostase peropératoire,
+   analgésie, critères d'admission en soins critiques, prévention de
+   l'insuffisance hépatique post-hépatectomie (IHPH), prévention thromboembolique.
+
+2. INSUFFISANCE HÉPATIQUE EN SOINS CRITIQUES (aiguë + cirrhose/ACLF)
+   Source : RFE-2018-insuffisance-hepatique-soins-critiques.pdf
+   Contenu : Bilan étiologique de l'IHA sévère, N-acétylcystéine, critères de
+   transplantation en urgence (King's College, Clichy-Villejuif), critères
+   d'admission en réa des cirrhotiques, IRA, sepsis, albumine, hémorragie
+   digestive, hémostase, quand demander un avis spécialisé/centre de greffe.
+
+3. INDICATIONS DE LA TRANSPLANTATION HÉPATIQUE
+   Sources : HAS-2005-transplantation-hepatique-court.pdf
+             HAS-2005-transplantation-hepatique-long.pdf
+             AFEF-indications-transplantation-hepatique.pdf
+   Contenu : Hépatites virales B/C, cirrhose alcoolique (durée d'abstinence,
+   sevrage), CHC (critères de Milan/UCSF), donneur vivant, retransplantation,
+   greffes multi-organes, VIH.
+
+4. SUPPORTS PÉDAGOGIQUES SFAR (non-officiels, diaporamas de congrès)
+   Sources : SFAR2017-Weiss-cirrhose-anesthesiste-reanimateur.pdf
+             SFAR2014-Bastien-immunosuppression-transplantation.pdf
+             SFAR2017-Roullet-thromboelastographie.pdf
+             SFAR2017-Charbit-patient-alcoolique.pdf
+             SFAR2014-Velly-20.pdf (épuration extrarénale au citrate)
+             SFAR2017-douleur-postop-hepatectomie.pdf
+
+   Note : SFAR2014-Amathieu-cirrhose-chirurgie.pdf a été retiré du corpus — le
+   fichier récupéré correspondait en réalité à "Sepsis chez le cirrhotique"
+   (Amathieu, congrès SFAR 2014), sans rapport avec la chirurgie/greffe. Son
+   intervention pertinente ("Qui admettre en réanimation ?", session CIRRHOSE,
+   congrès SFAR 2015) n'est pas disponible en PDF public.
+
+CE QUI N'EST PAS COUVERT (important pour cadrer les attentes d'un RAG) :
+Il n'y a AUCUN document sur le péri-opératoire/la réa spécifique de la chirurgie
+de transplantation hépatique elle-même (phase anhépatique, reperfusion,
+dysfonction primaire du greffon, immunosuppression initiale post-greffe
+immédiate). Le corpus couvre soit la résection (pas la greffe), soit les
+indications de greffe (pas sa réa), soit l'insuffisance hépatique en réa
+générale (hors bloc opératoire de greffe). Un RAG interrogé sur "la prise en
+charge du syndrome de reperfusion post-greffe" n'a rien à répondre dans ce
+corpus.
+
+
+CE À QUOI LE RAG PEUT RÉPONDRE
+================================================================================
+- Critères diagnostiques/scores (MELD, Child-Pugh, ALBI, Fib4, APRI, critères
+  de Milan/UCSF, IHPH grade A/B/C ISGLS)
+- Recommandations posologiques précises (doses, seuils, volumes)
+- Critères d'admission/non-admission en soins critiques
+- Contre-indications et indications de greffe par étiologie
+- Niveaux de preuve GRADE associés à chaque recommandation
+- Composition des groupes d'experts et méthodologie d'élaboration
+
+
+5 QUESTIONS DE TEST RAG (avec réponse exacte extraite des documents)
+================================================================================
+
+Q1. Quelle stratégie ventilatoire peropératoire est recommandée chez les
+patients opérés d'une résection hépatique pour diminuer les complications
+pulmonaires postopératoires ?
+
+Source : HAS-2025-resection-hepatique-recommandations.pdf
+Référence : R2.5.1, Champ 2.5 (Stratégie ventilatoire)
+
+Réponse exacte :
+"d'appliquer une ventilation protectrice associant : Un volume courant de
+6 à 8 ml/kg de poids prédit ; Une individualisation du niveau de pression
+expiratoire positive (PEP) afin de maximiser la compliance pulmonaire en
+appliquant une PEP d'au moins 5 cmH2O ; Des manœuvres de recrutement
+prudentes, sous réserve d'une bonne tolérance hémodynamique"
+(recommandation faible)
+
+--------------------------------------------------------------------------------
+
+Q2. Comment l'International Study Group of Liver Surgery (ISGLS) classe-t-il
+l'insuffisance hépatique post-hépatectomie (IHPH) ?
+
+Source : HAS-2025-resection-hepatique-recommandations.pdf
+Référence : Introduction
+
+Réponse exacte :
+"Grade A : pas de changement de traitement, Grade B : ajustement non invasif
+du traitement, Grade C : nécessite un transfert en unité de soins critiques
+et le recours à des suppléances d'organe"
+
+--------------------------------------------------------------------------------
+
+Q3. En cas d'insuffisance hépatique aiguë sévère avec suspicion d'intoxication
+au paracétamol, faut-il attendre le résultat du dosage sanguin avant de
+débuter la N-acétylcystéine ?
+
+Source : RFE-2018-insuffisance-hepatique-soins-critiques.pdf
+Référence : R2.1, Champ 1, Question 2
+
+Réponse exacte :
+"il est recommandé d'instaurer un traitement par N-acétylcystéine sans
+attendre le résultat du dosage sanguin du paracétamol et quelle que soit sa
+valeur." (Grade 1+, Accord FORT)
+
+--------------------------------------------------------------------------------
+
+Q4. Faut-il refuser d'admettre un patient cirrhotique en soins critiques du
+seul fait de sa maladie cirrhotique ?
+
+Source : RFE-2018-insuffisance-hepatique-soins-critiques.pdf
+Référence : R4, Champ 2, Question 4
+
+Réponse exacte :
+"Il n'est probablement pas recommandé de refuser d'admettre les patients
+cirrhotiques en soins critiques, du fait de leur seule maladie cirrhotique."
+(Grade 2-, Accord FORT)
+
+--------------------------------------------------------------------------------
+
+Q5. Quels critères tumoraux du carcinome hépatocellulaire (CHC) définissent
+l'indication la mieux validée de transplantation hépatique ?
+
+Source : HAS-2005-transplantation-hepatique-court.pdf
+Référence : Question 3
+
+Réponse exacte :
+"Les CHC formés d'une tumeur unique de moins de 5 centimètres ou de 2 à
+3 nodules de moins de 3 cm (« critères de Milan ») représentent l'indication
+la mieux validée de TH (grade B)."
+
+--------------------------------------------------------------------------------
+
+Note : ces 5 questions couvrent 3 documents différents, mêlent seuils
+numériques exacts et formulations verbatim — bon test pour vérifier qu'un
+RAG cite le bon passage plutôt que de reformuler/halluciner.
