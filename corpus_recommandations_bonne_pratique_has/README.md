@@ -8,6 +8,8 @@ Ce fichier référence les documents sources du corpus, avec leurs liens de tél
 
 Généré à partir du manifeste de téléchargement local (`manifeste.csv`) constitué en scrapant [has-sante.fr](https://www.has-sante.fr).
 
+Le fichier [`perimetre_medical.txt`](./perimetre_medical.txt) classe ces 325 documents par grand domaine, d'après leur intitulé, et liste ceux qui sortent du périmètre clinique strict (médico-légal, médico-social, organisationnel).
+
 ## Utilisation prévue
 
 Corpus source pour le pipeline d'extraction Q/A gradée (`bayesimpact/notebooks`, dossier `HAS/`, ex `evaluation_llm_has_sfar/`) — voir [`dataset_extraction_has_sfar.ipynb`](https://github.com/bayesimpact/notebooks) qui transforme un sous-ensemble de ces PDF en paires question/réponse gradées (grade GRADE/AVIS D'EXPERTS + argumentaire + polarité).
