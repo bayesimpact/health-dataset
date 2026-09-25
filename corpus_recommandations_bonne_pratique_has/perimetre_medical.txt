@@ -1,0 +1,161 @@
+PÉRIMÈTRE MÉDICAL
+Corpus : corpus_recommandations_bonne_pratique_has (325 documents HAS)
+================================================================================
+
+MÉTHODE ET LIMITE DE CE DOCUMENT
+================================================================================
+Ce périmètre est établi à partir des 325 titres/items du manifeste
+(liens_telechargement.txt), pas d'une lecture du contenu des PDF — contrairement
+au périmètre du corpus Montpellier (corpus_montpellier_greffe_hepatique/
+perimetre_scientifique.txt), qui repose sur les 12 documents réellement lus.
+Les regroupements ci-dessous sont donc indicatifs (classement par intitulé),
+à vérifier au cas par cas avant toute décision de filtrage fine.
+
+
+PÉRIMÈTRE GÉNÉRAL
+================================================================================
+Le corpus n'est pas borné à une discipline ni à un type d'établissement : il
+correspond au catalogue quasi complet des "Recommandations de bonne pratique"
+HAS, toutes disciplines et tous contextes de soins confondus (ville, hôpital,
+domicile, établissements médico-sociaux). Contrairement au corpus HAS-SFAR
+(50 documents, réanimation/chirurgie/anesthésie) ou au corpus Montpellier
+(greffe/résection hépatique), il n'y a ici aucune restriction de spécialité —
+c'est un point à garder en tête si ce corpus sert de base à un agent RAG dont
+le prompt vise un "périmètre médical strict" (cf. Agent HAS,
+internal-issues#70) : le corpus lui-même est beaucoup plus large que ce que
+l'agent est censé couvrir en pratique.
+
+
+GRANDS DOMAINES COUVERTS (classement par intitulé, ~325 items)
+================================================================================
+
+1. NEUROLOGIE / VASCULAIRE CÉRÉBRAL (~15 items)
+   AVC (rééducation, prise en charge précoce, aspects médicaux/paramédicaux,
+   prévention secondaire), AIT, migraine, épilepsie, SEP, SLA, Parkinson,
+   neuropathies périphériques, vertiges positionnels, paralysie cérébrale,
+   pathologies neuromusculaires (ventilation non invasive, trachéotomie).
+
+2. PSYCHIATRIE / SANTÉ MENTALE / ADDICTOLOGIE (~30 items)
+   Crise suicidaire, épisode dépressif, TDAH, TSA/autisme, schizophrénie et
+   dangerosité, expertise psychiatrique pénale, isolement/contention,
+   hospitalisation sans consentement, addictions (alcool, opiacés, cocaïne,
+   tabac, polyconsommation), CSAPA/CAARUD, sevrage.
+
+3. GÉRIATRIE (~10 items)
+   Alzheimer et maladies apparentées, chutes répétées, dénutrition, confusion
+   aiguë, EHPAD (qualité de vie, fin de vie), arrêt des benzodiazépines,
+   masso-kinésithérapie de la personne âgée fragile.
+
+4. PÉRINATALITÉ / GYNÉCO-OBSTÉTRIQUE (~25 items)
+   Accouchement, césarienne, IVG, hémorragie du post-partum, grossesses à
+   risque, allaitement, préparation à la naissance, VIH et grossesse,
+   thrombophilie et grossesse, tabac et grossesse, ménopause, endométriose,
+   prolapsus génital, incontinence urinaire de la femme.
+
+5. PÉDIATRIE / NÉONATOLOGIE / PROTECTION DE L'ENFANCE (~20 items)
+   Bronchiolite, douleur de l'enfant, dépistage visuel, mort inattendue du
+   nourrisson, nutrition parentérale en néonatologie, sepsis du nouveau-né,
+   surdité de l'enfant, troubles du neurodéveloppement, syndrome du bébé
+   secoué, repérage de l'inceste, protection de l'enfance.
+
+6. MALADIES INFECTIEUSES / VIH / HÉPATITES / IST (~30 items)
+   VIH (traitement antirétroviral, PrEP, PEP, vaccination), hépatites B/C/D,
+   IST (chlamydia, gonocoque, syphilis, herpès génital, condylomes,
+   trichomonas), antibiothérapie/antibioprophylaxie, sepsis, aspergillose
+   chez l'immunodéprimé, borréliose de Lyme.
+
+7. CARDIOLOGIE / HÉMATOLOGIE / HÉMOSTASE (~10 items)
+   Infarctus du myocarde, antiagrégants plaquettaires, transfusions (globules
+   rouges, plaquettes, plasma), accidents sous AVK, lecture de l'hémogramme.
+
+8. ENDOCRINOLOGIE / MÉTABOLISME (~6 items)
+   Diabète de type 2, obésité (prise en charge médicale et chirurgicale),
+   dysthyroïdies, hémochromatose.
+
+9. RHUMATOLOGIE / ORTHOPÉDIE / APPAREIL LOCOMOTEUR (~20 items)
+   Lombalgie, polyarthrite rhumatoïde, spondylarthrite, fractures de
+   l'extrémité proximale du fémur, tendinopathies de la coiffe des rotateurs,
+   prothèses de hanche/genou infectées, entorses de cheville/genou,
+   fibromyalgie.
+
+10. GASTRO-ENTÉROLOGIE / HÉPATOLOGIE (~6 items)
+    Cirrhose (diagnostic, complications, surveillance), transplantation
+    hépatique, endoscopie digestive haute/basse, diverticulite colique.
+    (Recoupe partiellement le corpus Montpellier — cf. limite connue du
+    README de ce dossier.)
+
+11. NÉPHROLOGIE / UROLOGIE (~6 items)
+    Transplantation et dialyse rénales, hypertrophie bénigne de la prostate,
+    ponction-biopsie rénale.
+
+12. DERMATOLOGIE (~6 items)
+    Acné, urticaire chronique, herpès cutanéo-muqueux, infections cutanées
+    bactériennes, escarres, ulcère de jambe.
+
+13. OPHTALMOLOGIE (~3 items)
+    Glaucome/hypertonie oculaire, amblyopie, verres correcteurs.
+
+14. PNEUMOLOGIE (~6 items)
+    Asthme (adulte et enfant), mucoviscidose, ventilation non invasive à
+    domicile.
+
+15. ODONTOLOGIE / STOMATOLOGIE (~6 items)
+    Avulsion des molaires, parodontopathies, orthopédie dento-faciale,
+    risque carieux, douleur en chirurgie buccale, endocardite infectieuse.
+
+16. CANCÉROLOGIE / IMAGERIE (~2 items)
+    Classification BIRADS (mammographie), chimiothérapie à domicile.
+
+17. MÉDECINE DU TRAVAIL / EXPOSITIONS ENVIRONNEMENTALES (~5 items)
+    Amiante, arsenic, cadmium, plomb, silice cristalline — suivi post-
+    professionnel et prise en charge médico-sociale.
+
+18. COVID-19 (1 item)
+    Symptômes prolongés post-Covid.
+
+
+HORS PÉRIMÈTRE CLINIQUE STRICT — MÉDICO-SOCIAL / JUDICIAIRE / ORGANISATIONNEL
+(~25-30 items)
+================================================================================
+À traiter explicitement si le corpus alimente un agent RAG à vocation
+strictement clinique (inclure comme "hors soin direct" ou exclure) :
+
+- Judiciaire / médico-légal : intervention du médecin en garde à vue,
+  expertise psychiatrique pénale, dangerosité psychiatrique (risque de
+  violence hétéro-agressive), prise en charge des auteurs d'agression
+  sexuelle sur mineurs, certificat médical initial victime de violences,
+  repérage/signalement de l'inceste, CHRS violences au sein du couple.
+- Protection de l'enfance / droit de la famille : autorité parentale dans le
+  cadre du placement, visites en présence d'un tiers en assistance
+  éducative, sortie des dispositifs de protection de l'enfance,
+  coordination protection de l'enfance / pédopsychiatrie.
+- Médico-social (ESSMS, handicap, précarité) : accompagnement vers et dans
+  l'habitat, vie intime/affective/sexuelle en ESSMS, protection juridique,
+  accès aux soins des personnes en situation de handicap, grande précarité
+  et troubles psychiques, lits halte soins santé / LAM / ACT, qualité de vie
+  en EHPAD et en résidences autonomie, répit des aidants, liberté d'aller et
+  venir en établissement sanitaire/médico-social.
+- Organisationnel / administratif : régulation médicale (appels de soins non
+  programmés, téléprescription), dossier médical en santé au travail, projet
+  d'établissement ou de service, maintien en emploi / désinsertion
+  professionnelle, scolarité et inclusion scolaire.
+
+Ces textes sont des RBP HAS à part entière (même méthodologie, même niveau de
+preuve), mais répondent à des questions d'accompagnement, de droit ou
+d'organisation plutôt qu'à des questions de diagnostic/traitement — donc hors
+du champ "conseil médical" que le prompt de l'Agent HAS cherche à border
+strictement (cf. note sécurité, internal-issues#70).
+
+
+CE QUE CE DOCUMENT NE PERMET PAS DE DIRE
+================================================================================
+- Pas de champ "year" dans le manifeste (cf. limite déjà notée dans le
+  README) : impossible de dater l'ancienneté des textes depuis ce document.
+- Le classement par domaine ci-dessus est fait sur l'intitulé du document
+  seul ; certains items sont explicitement marqués "recommandation
+  suspendue" dans liens_telechargement.txt (ex. polyarthrite rhumatoïde en
+  phase d'état, spondylarthrites, HTA essentielle 2005) — à exclure d'un
+  usage RAG en l'état si le prompt ne gère pas le statut "suspendu".
+- Aucune vérification que les 325 PDF sont effectivement téléchargeables à
+  ce jour (liens vers has-sante.fr, certains anciens documents de 2005-2006
+  passent par une page intermédiaire — cf. README).
