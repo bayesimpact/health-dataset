@@ -1,0 +1,68 @@
+PÉRIMÈTRE SCIENTIFIQUE
+Corpus : réanimation_greffe_hepatique (12 documents HAS / SFAR / AFEF)
+================================================================================
+
+PÉRIMÈTRE SCIENTIFIQUE COUVERT PAR LES 12 DOCUMENTS
+================================================================================
+
+Le corpus ne couvre pas un sujet unique et homogène "réa post-greffe hépatique"
+- il se décompose en 4 blocs distincts :
+
+1. CHIRURGIE DE RÉSECTION HÉPATIQUE (péri-opératoire complet)
+   Sources : HAS-2025-resection-hepatique-recommandations.pdf
+             HAS-2025-resection-hepatique-argumentaire.pdf
+   Contenu : Bilan préopératoire, préhabilitation, nutrition, drainage biliaire,
+   choix de l'anesthésie, préconditionnement hépatique, antibioprophylaxie,
+   hémodynamique peropératoire, ventilation protectrice, hémostase peropératoire,
+   analgésie, critères d'admission en soins critiques, prévention de
+   l'insuffisance hépatique post-hépatectomie (IHPH), prévention thromboembolique.
+
+2. INSUFFISANCE HÉPATIQUE EN SOINS CRITIQUES (aiguë + cirrhose/ACLF)
+   Source : RFE-2018-insuffisance-hepatique-soins-critiques.pdf
+   Contenu : Bilan étiologique de l'IHA sévère, N-acétylcystéine, critères de
+   transplantation en urgence (King's College, Clichy-Villejuif), critères
+   d'admission en réa des cirrhotiques, IRA, sepsis, albumine, hémorragie
+   digestive, hémostase, quand demander un avis spécialisé/centre de greffe.
+
+3. INDICATIONS DE LA TRANSPLANTATION HÉPATIQUE
+   Sources : HAS-2005-transplantation-hepatique-court.pdf
+             HAS-2005-transplantation-hepatique-long.pdf
+             AFEF-indications-transplantation-hepatique.pdf
+   Contenu : Hépatites virales B/C, cirrhose alcoolique (durée d'abstinence,
+   sevrage), CHC (critères de Milan/UCSF), donneur vivant, retransplantation,
+   greffes multi-organes, VIH.
+
+4. SUPPORTS PÉDAGOGIQUES SFAR (non-officiels, diaporamas de congrès)
+   Sources : SFAR2017-Weiss-cirrhose-anesthesiste-reanimateur.pdf
+             SFAR2014-Bastien-immunosuppression-transplantation.pdf
+             SFAR2017-Roullet-thromboelastographie.pdf
+             SFAR2017-Charbit-patient-alcoolique.pdf
+             SFAR2014-Velly-20.pdf (épuration extrarénale au citrate)
+             SFAR2017-douleur-postop-hepatectomie.pdf
+
+   Note : SFAR2014-Amathieu-cirrhose-chirurgie.pdf a été retiré du corpus — le
+   fichier récupéré correspondait en réalité à "Sepsis chez le cirrhotique"
+   (Amathieu, congrès SFAR 2014), sans rapport avec la chirurgie/greffe. Son
+   intervention pertinente ("Qui admettre en réanimation ?", session CIRRHOSE,
+   congrès SFAR 2015) n'est pas disponible en PDF public.
+
+CE QUI N'EST PAS COUVERT (important pour cadrer les attentes d'un RAG) :
+Il n'y a AUCUN document sur le péri-opératoire/la réa spécifique de la chirurgie
+de transplantation hépatique elle-même (phase anhépatique, reperfusion,
+dysfonction primaire du greffon, immunosuppression initiale post-greffe
+immédiate). Le corpus couvre soit la résection (pas la greffe), soit les
+indications de greffe (pas sa réa), soit l'insuffisance hépatique en réa
+générale (hors bloc opératoire de greffe). Un RAG interrogé sur "la prise en
+charge du syndrome de reperfusion post-greffe" n'a rien à répondre dans ce
+corpus.
+
+
+CE À QUOI LE RAG PEUT RÉPONDRE
+================================================================================
+- Critères diagnostiques/scores (MELD, Child-Pugh, ALBI, Fib4, APRI, critères
+  de Milan/UCSF, IHPH grade A/B/C ISGLS)
+- Recommandations posologiques précises (doses, seuils, volumes)
+- Critères d'admission/non-admission en soins critiques
+- Contre-indications et indications de greffe par étiologie
+- Niveaux de preuve GRADE associés à chaque recommandation
+- Composition des groupes d'experts et méthodologie d'élaboration
